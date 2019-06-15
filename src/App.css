@@ -31,3 +31,8 @@
     transform: rotate(360deg);
   }
 }
+
+.ui.header {
+ background-color: #111111;
+  color: white !important;
+}

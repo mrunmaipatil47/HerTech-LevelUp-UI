@@ -6,8 +6,8 @@ export function Login() {
     return (
         <div style={ { margin: 40 } }>
             <Input placeholder='Username' />
-            <br /><Link to="/dashboard">
-                <Button style={ { margin: 10 } } animated>
+            <br /><Link to="/quiz">
+                <Button style={ { margin: 10 } } color='black' animated>
                     <Button.Content visible>Next</Button.Content>
                     <Button.Content hidden>
                         <Icon name='arrow right' />
