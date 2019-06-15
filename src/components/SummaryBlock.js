@@ -1,5 +1,5 @@
 import React, { useState, useEffect}from 'react'
-import {  Segment, Container } from 'semantic-ui-react'
+import {  Segment, Container} from 'semantic-ui-react'
 
 export function SummaryBlock(props) {
 const [text, setText] = useState("")
@@ -20,6 +20,7 @@ const [text, setText] = useState("")
                     <p>{ text }</p>
                 </Container>
             </Segment>
+            
         </div>
     )
 }
